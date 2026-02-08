@@ -12,3 +12,38 @@ body {
   overflow: hidden;
   margin: 0;
 }
+.search{
+  position: relative;
+  height:50px;
+}
+.search .input{
+  background-color: #fff;
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.3s ease;/* transition属性一般都在前一个状态的选择器设置*/
+}
+.btn{
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;/* absolut,top,left基于父元素 */
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+.btn:focus,.input:focus{/*  逗号隔开表示并列，空格表示子元素*/
+  outline: none;
+}
+.search.active .input{
+  width: 200px;
+  
+}
+.search.active .btn{
+  transform: translateX(198px);/* 向右位移 */
+}
