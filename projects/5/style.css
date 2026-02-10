@@ -1,0 +1,30 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+}
+.bg{
+  background: url('https://img1.baidu.com/it/u=3958188098,896575978&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800')
+  no-repeat center/cover;/* 背景图片 中心缩放 */
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);/* 中间需要空格隔开 */
+  height: calc(100vh + 60px);
+  z-index: -1;
+  /* 写到这为啥不显示呢？ calc里需要空格隔开 */
+  filter: blur(0px);/* 滤镜：模糊度 */
+}
+.loading-text{
+  font-size: 50px;
+  color: bisque;
+}
