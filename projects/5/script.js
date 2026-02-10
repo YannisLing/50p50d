@@ -15,4 +15,4 @@ function blurring(){
   bg.style.filter=`blur(${scale(load,0,100,30,0)}px)`//模糊度从30到0
 }
 
-const scale = (num,in_min,in_max,out_min,out_max)=>((num-in_min)*(out_max-out_min))/(in_max-in_min)+out_min//这玩意在数学上叫什么变换来着
+const scale = (num,in_min,in_max,out_min,out_max)=>((num-in_min)*(out_max-out_min))/(in_max-in_min)+out_min//这玩意在数学上叫线性映射来着，将数值从一个区间 [in_min,in_max]  线性映射到另一个区间 [out_min,out_max] ，保持比例关系不变
