@@ -75,7 +75,7 @@ h1{
   background-size: cover;
 
 }
-.split.left::before{
+.split.left::before{/* 俩before是加了一层滤镜 */
   content: '';
   position: absolute;
   width: 100%;
