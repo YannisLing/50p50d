@@ -70,9 +70,9 @@ h1{
 }
 .split.left{
   left: 0;
-  background: url('https://img1.baidu.com/it/u=3877755426,1290132251&fm=253&app=138&f=JPEG?w=800&h=1253');
+  background: url('https://gips2.baidu.com/it/u=3392700351,1907601041&fm=3074&app=3074&f=PNG?w=2560&h=1440');
   background-repeat: no-repeat;/* 不重复 */
-  background-size: cover;
+  background-size:cover;/* 图片宽度不够会导致图片缩放 */
 
 }
 .split.left::before{/* 俩before是加了一层滤镜 */
@@ -85,7 +85,7 @@ h1{
 }
 .split.right{
   right: 0;
-  background: url('https://qcloud.dpfile.com/pc/nA0Lxvcdk45WtCNlvjWyEseRIZuPix8ucMmtnX8mo7I8Y7qtD6wd7xSIdmKiPJB9.jpg');
+  background: url('https://img0.baidu.com/it/u=1848462303,2613434976&fm=253&app=138&f=JPEG?w=889&h=500');
   background-repeat: no-repeat;/* 不重复 */
   background-size: cover;
 
