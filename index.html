@@ -7,18 +7,74 @@
 </head>
 <body>
   <h1>My 50Projects50Days</h1>
-  <ul>
-    <li><a href="projects/1 ExpandingCards/index.html">拓展卡片</a></li>
-    <li><a href="projects/2 Progress Steps/index.html">步骤器</a></li>
-    <li><a href="projects/3/index.html">旋转导航</a></li>
-    <li><a href="projects/4/index.html">隐藏搜索框</a></li>
-    <li><a href="projects/5/index.html">模糊加载</a></li>
-    <li><a href="projects/6/index.html">滚动画面</a></li>
-    <li><a href="projects/7/index.html">页面分裂</a></li>
-    <li><a href="projects/8/index.html">表格波浪</a></li>
-    <li><a href="projects/9/index.html">9 音板</a></li>
-    <li><a href="projects/10/index.html">10 爸爸的笑话</a></li>
-    <li><a href="projects/11/index.html">11 按键事件</a></li>
-  </ul>
+  <div class="container">
+    <div class="group1">
+      <ul>
+      <li><a href="projects/group1/1 ExpandingCards/index.html">拓展卡片</a></li>
+      <li><a href="projects/group1/2 Progress Steps/index.html">步骤器</a></li>
+      <li><a href="projects/group1/3/index.html">旋转导航</a></li>
+      <li><a href="projects/group1/4/index.html">隐藏搜索框</a></li>
+      <li><a href="projects/group1/5/index.html">模糊加载</a></li>
+      <li><a href="projects/group1/6/index.html">滚动画面</a></li>
+      <li><a href="projects/group1/7/index.html">页面分裂</a></li>
+      <li><a href="projects/group1/8/index.html">表格波浪</a></li>
+      <li><a href="projects/group1/9/index.html">9 音板</a></li>
+      <li><a href="projects/group1/10/index.html">10 爸爸的笑话</a></li>
+      
+    </div>
+    <div class="group2">
+      <ul>
+        <li><a href="projects/group2/11/index.html">11 按键事件</a></li>
+      </ul>
+    </div>
+    <div class="group3"></div>
+    <div class="group4"></div>
+    <div class="group5"></div>
+  </div>
 </body>
+<style>
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-image:linear-gradient(90deg,#7d5fff,#7158e2) ;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  h1 {
+    text-align: center;
+    height: 50px;
+    margin: 50px;
+  }
+  .container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+  }
+  .container div{
+    width: 350px;
+    height: 300px;
+    background-color: #7d5fff;
+    border: 2px black solid;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px ;
+  }
+  .container div ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+
+
+</style>
 </html>
